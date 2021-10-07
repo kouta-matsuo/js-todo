@@ -1,5 +1,36 @@
+.top {
+  width: 100vw;
+  font-size: 62.5%;
+}
 .top__container-heading {
   text-align: center;
+  font-size: 1.5rem;
+}
+.top__container-form {
+  text-align: center;
+  margin: 3rem 0 3rem 0;
+}
+.top__container-input {
+  width: 60%;
+  height: 2rem;
+}
+.top__container-lists-box {
+  background-color: #eee;
+  width: 80%;
+  min-height: 50vh;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.top__container-lists {
+  padding: 0;
+  margin: 0;
+}
+.top__container-list {
+  list-style: none;
+  background-color: #fff;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

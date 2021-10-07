@@ -1,8 +1,45 @@
 .top {
+    width: 100vw;
+    font-size: 62.5%;
+    
     &__container {
         
         &-heading {
             text-align: center;
+            font-size: 1.5rem;
+        }
+        
+        &-form {
+            text-align: center;
+            margin: 3rem 0 3rem 0;
+            
+        }
+        
+        &-input {
+            width: 60%;
+            height: 2rem;
+            
+        }
+        
+        &-lists-box {
+            background-color: #eee;
+            width: 80%;
+            min-height: 50vh;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        &-lists {
+            padding: 0;
+            margin: 0;
+        }
+        
+        &-list {
+            list-style: none;
+            background-color: #fff;
+            padding: 1rem;
+            margin: 1rem;
+            border-radius: .5rem;
         }
     }
 }
