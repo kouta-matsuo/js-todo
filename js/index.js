@@ -12,8 +12,11 @@ form.addEventListener("submit", (e) => {
 
 function add() {
     let inputValue = input.value;
-    const li = document.createElement("li");
-    li.innerText = inputValue;
-    li.classList.add("top__container-list");
-    ul.appendChild(li);
+    //空文字は許さない
+    if (inputValue) {
+        const li = document.createElement("li");
+        li.innerText = inputValue;
+        li.classList.add("top__container-list");
+        ul.appendChild(li);
+    }
 }
