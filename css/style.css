@@ -7,6 +7,9 @@
   width: 100vw;
   font-size: 62.5%;
 }
+.top__container {
+  margin-top: 3rem;
+}
 .top__container-heading {
   text-align: center;
   font-size: 1.5rem;
