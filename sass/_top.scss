@@ -38,10 +38,33 @@
             list-style: none;
             background-color: #fff;
             padding: 1rem;
-            margin: 1rem;
+            margin: 2rem 1rem;
             border-radius: .5rem;
             position: relative;
         }
+        
+        &-list-delete-btn {
+            position: absolute;
+            right: 0;
+            bottom: -1.5rem;
+            background-color: #FF0033;
+            padding: .3rem 1rem;
+            border-radius: .5rem;
+            width: 3rem;
+            height: 1rem;
+            
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        
+        &-list-delete-btn::after {
+            content: "delete";
+            position: absolute;
+            left: 1.5rem;
+        }
+        
+        
         
         &-list--click {
             background-color: #fed900;

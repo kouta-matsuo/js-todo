@@ -29,9 +29,27 @@
   list-style: none;
   background-color: #fff;
   padding: 1rem;
-  margin: 1rem;
+  margin: 2rem 1rem;
   border-radius: 0.5rem;
   position: relative;
+}
+.top__container-list-delete-btn {
+  position: absolute;
+  right: 0;
+  bottom: -1.5rem;
+  background-color: #FF0033;
+  padding: 0.3rem 1rem;
+  border-radius: 0.5rem;
+  width: 3rem;
+  height: 1rem;
+}
+.top__container-list-delete-btn:hover {
+  cursor: pointer;
+}
+.top__container-list-delete-btn::after {
+  content: "delete";
+  position: absolute;
+  left: 1.5rem;
 }
 .top__container-list--click {
   background-color: #fed900;
