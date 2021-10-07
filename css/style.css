@@ -31,6 +31,15 @@
   padding: 1rem;
   margin: 1rem;
   border-radius: 0.5rem;
+  position: relative;
+}
+.top__container-list--click {
+  background-color: #fed900;
+}
+.top__container-list--click::after {
+  content: "completed";
+  position: absolute;
+  right: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

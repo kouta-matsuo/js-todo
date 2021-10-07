@@ -40,6 +40,18 @@
             padding: 1rem;
             margin: 1rem;
             border-radius: .5rem;
+            position: relative;
         }
+        
+        &-list--click {
+            background-color: #fed900;
+        }
+        
+        &-list--click::after {
+            content: "completed";
+            position: absolute;
+            right: 1rem;
+        }
+        
     }
 }
